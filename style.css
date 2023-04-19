@@ -32,6 +32,15 @@ body {
     padding: 24px 16px;
 }
 
+#menu {
+    margin-top: 50px;
+}
+
+.playlist a {
+    font-size: 0.5em;
+    font-weight: 100;
+}
+
 .sidebar ul {
     list-style: none;
     margin: 0;
@@ -47,12 +56,17 @@ body {
 }*/
 
 .sidebar a {
-    display: block;
+    display: flex;
+    align-items: center;
     color: rgba(255, 255, 255, 0.856);
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
+}
+
+.sidebar a span {
+    margin-right: 10px;
 }
 
 .sidebar a:hover {
@@ -66,3 +80,6 @@ body {
     padding-top: 24px;
 }
 
+.bottom-menu {
+    margin-bottom: 50px;
+}
